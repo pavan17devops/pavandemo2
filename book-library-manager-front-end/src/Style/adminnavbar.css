@@ -1,0 +1,54 @@
+/* adminnavbar.css */
+.admin-navbar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    border-left: 4px solid #004085;
+    /* Admin-specific accent */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #004085;
+    /* Darker blue for admin theme */
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #002752;
+    background-color: #e6f0fa;
+    border-radius: 4px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-link {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

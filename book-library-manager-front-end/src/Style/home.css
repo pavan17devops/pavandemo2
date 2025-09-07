@@ -1,0 +1,40 @@
+/* home.css */
+.home-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.welcome-message {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.navbar-container {
+    margin-top: 20px;
+}
+
+.no-user-message {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff3f3;
+    border: 1px solid #ff6b6b;
+    border-radius: 4px;
+    color: #d32f2f;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.error-message {
+    color: #d32f2f;
+    font-size: 1rem;
+    margin-top: 20px;
+}
